@@ -38,6 +38,4 @@ $posts = json_decode($json, true);
                         <?=$item ?>
                     </li>
                     <?php endforeach;?>
-    </ul> 
-    </body>
-    </html>
+<?php include('partials/footer.php'); ?>
